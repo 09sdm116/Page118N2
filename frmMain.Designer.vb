@@ -37,17 +37,19 @@ Partial Class frmMain
         '
         'lstAccountSummary
         '
+        Me.lstAccountSummary.Font = New System.Drawing.Font("Courier New", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstAccountSummary.FormattingEnabled = True
-        Me.lstAccountSummary.Location = New System.Drawing.Point(12, 106)
+        Me.lstAccountSummary.ItemHeight = 14
+        Me.lstAccountSummary.Location = New System.Drawing.Point(12, 78)
         Me.lstAccountSummary.Name = "lstAccountSummary"
-        Me.lstAccountSummary.Size = New System.Drawing.Size(503, 121)
+        Me.lstAccountSummary.Size = New System.Drawing.Size(472, 74)
         Me.lstAccountSummary.TabIndex = 1
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(527, 250)
+        Me.ClientSize = New System.Drawing.Size(492, 178)
         Me.Controls.Add(Me.lstAccountSummary)
         Me.Controls.Add(Me.btnDisplayAccountSummary)
         Me.Name = "frmMain"
